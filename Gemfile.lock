@@ -1,0 +1,60 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    a2z (0.1.3)
+      crack
+      jeff (~> 0.6.4)
+      money
+    activesupport (4.0.13)
+      i18n (~> 0.6, >= 0.6.9)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    dotenv (2.0.0)
+    excon (0.23.0)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    i18n (0.7.0)
+    jeff (0.6.4)
+      excon (~> 0.23.0)
+    json (1.8.2)
+    minitest (4.7.5)
+    money (6.5.1)
+      i18n (>= 0.6.4, <= 0.7.0)
+    multi_json (1.11.0)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    rack (1.6.0)
+    rack-protection (1.5.3)
+      rack
+    safe_yaml (1.0.4)
+    shotgun (0.9)
+      rack (>= 1.0)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    thread_safe (0.3.5)
+    tilt (2.0.1)
+    tzinfo (0.3.43)
+    wunderlist-api (0.5.0)
+      activesupport (~> 4.0.0)
+      faraday (~> 0.9.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  a2z
+  dotenv
+  httparty
+  json
+  shotgun
+  sinatra
+  wunderlist-api
